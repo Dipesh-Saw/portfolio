@@ -1,11 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dipesh Saw</title>
+    <title>My Portfolio websites</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
 </head>
+
 <body>
-    <h1>Hello Visitor</h1>
+    <section class="header">
+        <div class="nav-bar">
+            <nav>
+                <div class="logo">Portfo<span>lio</span></div>
+
+                <div class="nav-links">
+                    <i class="fa fa-close" id="close"></i>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+
+                </div>
+                <i class="fa fa-moon-o" aria-hidden="true"></i> <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <i class="fa fa-bars" id="menu"></i>
+            </nav>
+        </div>
+        <div class="container" id="home">
+            <div class="intro">
+                <h2>Hi, my name is </h2>
+                <h1>Dipesh Saw</h1>
+                <h2>I'm a <span>Fullstack Developer</span> </h2>
+                <p>I am a web developer.My expertise is to create and <br> develop websites..</p>
+                <div class="account">
+                   <a href="https://www.linkedin.com/in/piyush-kumar-bb2699263"><i class="fa fa-linkedin" id="menu"></i></a>
+                   <a href="https://instagram.com/lucky_piyush01?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram" id="menu"></i></a>
+                   <a href="https://www.facebook.com/profile.php?id=100030891215266"><i class="fa fa-facebook" id="menu"></i></a>
+
+                </div>
+
+
+                <button>More about me</button>
+            </div>
+            <div class="pic"><img src="IMAGES/dipeshpropic.jpg" alt=""></div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section class="about" id="about">
+
+        <div class="pic2">
+            <img src="IMAGES/dipeshpropic.jpg" alt="">
+        </div>
+        <div class="aboutme">
+            <h1>About Me</h1>
+            <h2>Developer <span>& Designer</span> </h2>
+            <p>I am a front-end web developer.I can provide clean <br> code and pixel perfect design.I make the websites
+                more interactive and responsive.I knows the languages like html css and javascript.A responsive design
+                makes your websites accessible to all users,regardless of there device.</p>
+        </div>
+
+    </section>
+
+    <!------ skill -------->
+    <section class="skill-container"   id="skill">
+
+        <div class="my-skill">
+            <h1>My Skills</h1>
+        </div>
+        <div class="skill" >
+
+            <div class="skill-left">
+                <h2>My Creative Skill</h2>
+                <p>I knows the languages like html css and javascript.I make the websites more interactive and
+                    responsive.A responsive design makes your websites accessible to all users,regardless of there
+                    device. I also knows computer programming languages like cpp.</p>
+            </div>
+            <div class="skill-right">
+                <div class="html">
+                    <div>HTML</div>
+                    <div class="per">75%</div>
+
+                </div>
+                <div class="html-border"></div>
+                <div class="html">
+                    <div>CSS</div>
+                    <div>85%</div>
+
+                </div>
+                <div class="css-border"></div>
+                <div class="html">
+                    <div>JAVASCRIPT</div>
+                    <div>70%</div>
+
+                </div>
+                <div class="javascript-border"></div>
+                <div class="html">
+                    <div>C++</div>
+                    <div class="per">75%</div>
+
+                </div>
+                <div class="html-border"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------project------------ -->
+
+    <section class="project" id="project" >
+        <div class="h1-proj"  >
+            <h1>My Projects</h1>
+        </div>
+        <div class="proj-move">
+        <div class="project-col" >
+            <div class="project-row">
+
+                <img src="img/img1.jpg" alt="">
+                <div class="layer">
+                    <div class="link">
+                        <h2>Weather App</h2>
+                        <p> A fully featured weather forecast web application implemented using html, css and javascript.               </p>
+                     <a href="https://piyush7646.github.io/weather-app/"> <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-row">
+
+                <img src="img/calcu.jpeg" alt="" class="cal">
+                <div class="layer">
+                    <div class="link">
+                        <h2>Calculator App</h2>
+                        <p>I created weather app by using html, css javascript</p>
+                        <a href="https://piyush7646.github.io/Calculator/"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    </section>
+
+    <!-- ---------contact---- -->
+
+
+    <section class="contact" id="contact">
+        <div class="h1-cont"><h1>Contact Us</h1></div>
+        <div class="contact-col" id="contact">
+            <div class="contact-left">
+                <h1>Send Message</h1>
+                <form action="">
+                   <div class="name">
+                   <input type="text" placeholder="Full name" class="firstname">
+
+               </div>
+               <div >
+               <input type="email" placeholder="Email" class="email">
+           </div>
+           <div >
+               <input type="address" placeholder="Write a message" class="message">
+           </div>
+                </form>
+               <div class="send-btn"><button>Send message</button></div>
+           </div>
+            <div class="contact-right">
+                <div class="contact-details">
+                    <div>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div><p>Dhanbad Jharkhand</p></div>
+                </div>
+                <div class="contact-details">
+                    <div>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div><p>9572254410</p></div>
+                </div>
+                <div class="contact-details">
+                    <div>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <div><p>piyushkumardhn11@gmail.com</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <section class="footer">
+    <div>
+    <p>Copyright @ 2023 by Piyush | All Right Reserved</p>
+</div>
+<div>
+   <a href="#home"><button>^</button></a>
+</div>
+   </section>
+
 </body>
+
 </html>
