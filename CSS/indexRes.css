@@ -52,7 +52,7 @@
     width: 205px;
     height: 75px;
     border-radius: 12px;
-    transform: translate(110px, -165px);
+    transform: translate(155px, -85px);
   }
   #item2 img {
     width: 10vw;
@@ -65,7 +65,7 @@
     font-size: 2vw;
   }
   #item3 {
-    transform: translate(205px, -15px);
+    transform: translate(220px, 0px);
   }
   #item3 img {
     width: 12vw;
@@ -107,6 +107,7 @@
   }
   .box-card {
     padding: 2vw;
+    border-radius: 16px;
   }
   .card-left {
     padding: 1.5vw;
