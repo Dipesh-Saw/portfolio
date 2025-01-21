@@ -66,6 +66,12 @@ nav .container {
 #right button:hover {
   background-color: rgb(247, 115, 21);
 }
+#right img {
+  display: none;
+}
+#mobile {
+  display: none;
+}
 #pg1 {
   display: flex;
   justify-content: space-between;
