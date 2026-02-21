@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dipesh-saw.github.io/portfolio/sitemap.xml

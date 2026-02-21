@@ -650,6 +650,9 @@ h4,
 
 /* Mobile Devices (max-width: 768px) */
 @media (max-width: 768px) {
+    .hero{
+        padding-top: 300px;
+    }
     .nav-links {
         display: none;
     }
@@ -767,6 +770,9 @@ h4,
 
 /* Small Mobile (max-width: 480px) */
 @media (max-width: 480px) {
+    .hero{
+        padding-top: 460px;
+    }
     .hero-title {
         font-size: 2.5rem;
     }
